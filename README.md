@@ -62,3 +62,24 @@
 ## Feedback 📨
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da ATV1;
 -  A nota será atribuída no Microsoft Teams
+
+
+## respostas
+
+## Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R1: Ao instanciar o objeto, foi feita a conexão entre a classe App e a classe CorpoHumano, permitindo a classe App buscar ou alterar dados da classe CorpoHumano atravez dos metodos criados.
+
+R2: No contexto do enunciado, a variavel massa ( que pertence a classe CorpoHumano ) esta recebendo o valor de "2" atravez da classe App.
+
+## Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R1: O modificador de acesso da variavel massa foi alterado de private para public.
+
+R2: Com essa mudança a variavel massa passa a ser acessivel para outras classes sem precisar de construtores, getters e setters.
+  
+## Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R1: O modificador de acesso do metodo setVolume foi alterado de public para private.
+
+R2: Com essa mudança o metodo setVolume não pode mais ser acessado por classes externas, podendo ser acessado apenas pela propria classe.
