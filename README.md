@@ -63,6 +63,7 @@
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da ATV1;
 -  A nota será atribuída no Microsoft Teams
 
+##--------------------------------------------------------------------------------------------------------------------##
 
 ## respostas
 
