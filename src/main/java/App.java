@@ -1,30 +1,48 @@
-package main.java;
 import java.util.Scanner;
 
 public class App {
-        //Comentário
-
-    public static void funcao_teste (){
-        //Biblioteca para entrada de dados
-        Scanner ler = new Scanner(System.in); 
-
-        //variável local a
-        String v2;
-        int v1;
-
-        System.out.println("Comando de Saida de Dados");
-        
-        System.out.printf("Informe uma palavra: ");
-        v2 = ler.next();
-
-        System.out.printf("Informe um número: ");
-        v1 = ler.nextInt();
-
-        System.out.printf(v2+" "+v1);
-    }
     public static void main(String[] args) throws Exception {
-        funcao_teste();
+        CorpoHumano c1 = new CorpoHumano(0, 0, 0, 0);
 
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Digite a massa!");
+        float massa = sc.nextFloat();
+
+        System.out.println("Digite o volume!");
+        float volume = sc.nextFloat();
+
+        System.out.println("Digite a densidade!");
+        float densidade = sc.nextFloat();
+
+        System.out.println("Digite a altura!");
+        float altura = sc.nextFloat();
+
+        c1.setDensidade(densidade);
+        c1.setMassa(massa);
+        c1.setVolume(volume);
+        c1.setAltura(altura);
+
+        System.out.println("Valores iniciais");
+
+        System.out.println("massa: " + c1.getMassa() + " kg volume: " + c1.getVolume() + " m³ densidade: " + c1.getDensidade() + " kg/(m³) altura: " + c1.getAltura() + " m IMC: " + (c1.getMassa()/(c1.getAltura() * c1.getAltura())));
+
+        System.out.println("Digite a nova massa!");
+        massa = sc.nextFloat();
+
+        System.out.println("Digite o nova altura!");
+        altura = sc.nextFloat();
+        
+
+        c1.setMassa(massa);
+        c1.setAltura(altura);
+
+        System.out.println("Novos Valores");
+
+        System.out.println("massa: " + c1.getMassa() + " kg altura: " + c1.getAltura() + " m novo IMC: " + (c1.getMassa()/(c1.getAltura() * c1.getAltura())));
+
+        sc.close();
 
     }
 }
+
