@@ -1,3 +1,5 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/RPHb6JFs)
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=20957579&assignment_repo_type=AssignmentRepo)
 # Atividade 4 - Classe e Objeto
 
 
@@ -60,3 +62,25 @@
 ## Feedback 📨
 -  Sua atividade receberá uma pontuação de 0 a 10, que compõe a Nota de Atividades da ATV1;
 -  A nota será atribuída no Microsoft Teams
+
+##--------------------------------------------------------------------------------------------------------------------##
+
+## respostas
+
+## Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R1: Ao instanciar o objeto, foi feita a conexão entre a classe App e a classe CorpoHumano, permitindo a classe App buscar ou alterar dados da classe CorpoHumano atravez dos metodos criados.
+
+R2: No contexto do enunciado, a variavel massa ( que pertence a classe CorpoHumano ) esta recebendo o valor de "2" atravez da classe App.
+
+## Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R1: O modificador de acesso da variavel massa foi alterado de private para public.
+
+R2: Com essa mudança a variavel massa passa a ser acessivel para outras classes sem precisar de construtores, getters e setters.
+  
+## Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+R1: O modificador de acesso do metodo setVolume foi alterado de public para private.
+
+R2: Com essa mudança o metodo setVolume não pode mais ser acessado por classes externas, podendo ser acessado apenas pela propria classe.
