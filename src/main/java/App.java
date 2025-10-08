@@ -25,7 +25,7 @@ public class App {
 
         System.out.println("Valores iniciais");
 
-        System.out.println("massa: " + c1.getMassa() + " kg volume: " + c1.getVolume() + " m³ densidade: " + c1.getDensidade() + " kg/(m³) altura: " + c1.getAltura() + " m IMC: " + (c1.getMassa()/(c1.getAltura() * c1.getAltura())));
+        System.out.println("massa: " + c1.getMassa() + " kg volume: " + c1.getVolume() + " m³ densidade: " + c1.getDensidade() + " kg/(m³) altura: " + c1.getAltura() + " m IMC: " + (c1.imc()));
 
         System.out.println("Digite a nova massa!");
         massa = sc.nextFloat();
@@ -39,7 +39,7 @@ public class App {
 
         System.out.println("Novos Valores");
 
-        System.out.println("massa: " + c1.getMassa() + " kg altura: " + c1.getAltura() + " m novo IMC: " + (c1.getMassa()/(c1.getAltura() * c1.getAltura())));
+        System.out.println("massa: " + c1.getMassa() + " kg altura: " + c1.getAltura() + " m novo IMC: " + (c1.imc()));
 
         sc.close();
 

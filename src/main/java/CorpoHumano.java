@@ -42,5 +42,11 @@ public class CorpoHumano {
     public void setAltura(float altura){
         this.altura = altura;
     }
+
+    public float imc(){
+        float imc = this.massa / (this.altura * this.altura);
+
+        return imc;
+    }
     
 }
